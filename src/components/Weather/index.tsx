@@ -1,5 +1,5 @@
 import React from "react";
-import { useGetCityByNameQuery } from "../generated/graphql";
+import { useGetCityByNameQuery } from "../../generated/graphql";
 
 const Weather = () => {
   const { data, loading, error } = useGetCityByNameQuery({
